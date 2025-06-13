@@ -148,6 +148,7 @@ export default function AIAgentPage() {
           Your personal AI agent for managing healthcare data licensing
         </p>
       </div>
+      
 
       <Tabs defaultValue="chat" className="space-y-4">
         <TabsList>
@@ -506,5 +507,14 @@ export default function AIAgentPage() {
                     <Badge variant="destructive">Alert</Badge>
                   </div>
                   <p className="mt-2 text-sm">
-                    Detected potential license terms
-                    </p>
+                                        Detected potential license terms violation by a licensee. Please review the details and take appropriate action.
+                                      </p>
+                                    </div>
+                                  </div>
+                                </CardContent>
+                              </Card>
+                            </TabsContent>
+                          </Tabs>
+                        </div>
+                      )
+                    }
