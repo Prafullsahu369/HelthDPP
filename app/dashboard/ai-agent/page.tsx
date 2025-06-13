@@ -506,4 +506,5 @@ export default function AIAgentPage() {
                     <Badge variant="destructive">Alert</Badge>
                   </div>
                   <p className="mt-2 text-sm">
-                    Detected potential license terms\
+                    Detected potential license terms
+                    </p>
